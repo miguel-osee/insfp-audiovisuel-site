@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ActualiteCard({ id, titre, date, sousTitre, image }) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col justify-between items-center">
       <div className="w-full h-56 overflow-hidden rounded-2xl">
         <img src={image} alt={titre} className="object-cover w-full h-full" />
       </div>

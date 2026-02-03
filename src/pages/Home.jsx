@@ -1,11 +1,11 @@
-import Hero from "../components/Hero.jsx";
-import About from "../components/About.jsx";
-import FormationsPreview from "../components/Formation-preview.jsx";
-import Footer from "../components/Footer.jsx";
-import Stats from "../components/Stat.jsx";
-import NewsPreview from"../components/ActualitesPreview.jsx"
-import Faq from"../components/faq.jsx";
-import InscriptionMini from "../components/InscriptionMini.jsx";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import FormationsPreview from "../components/FormationsPreview";
+import Footer from "../components/Footer";
+import Stats from "../components/Stat";
+import NewsPreview from"../components/ActualitesPreview"
+import Faq from"../components/faq";
+import InscriptionMini from "../components/InscriptionMini";
 
 export default function Home() {
   return (

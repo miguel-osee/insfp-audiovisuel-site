@@ -69,11 +69,11 @@ export default function Dashboard() {
 
       {/* ===== Notifications (VOIR + CROIX style PROFIL) ===== */}
       {notifications.length > 0 && (
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {notifications.map((notif) => (
             <div
               key={notif.id}
-              className="relative flex items-start gap-4 p-5 bg-white border-l-4 rounded-md shadow-sm border-primary"
+              className="relative flex items-start gap-4 p-5 bg-white rounded-md shadow-sm"
             >
               {/* Icône */}
               <div className="p-3 text-white rounded-md bg-primary shrink-0">

@@ -41,7 +41,7 @@ export default function Profil() {
 
       {/* ===== Notification après titre ===== */}
       {showNotif && (
-        <div className="relative flex items-start gap-4 p-5 bg-white border-l-4 rounded-md shadow-sm border-primary">
+        <div className="relative flex items-start gap-4 p-5 bg-white rounded-md shadow-sm">
 
           {/* Icône */}
           <div className="p-3 text-white rounded-md bg-primary">
@@ -133,7 +133,7 @@ export default function Profil() {
       </section>
 
       {/* ===== Mention administrative ===== */}
-      <section className="flex items-start gap-4 p-6 bg-white border-l-4 rounded-lg border-primary">
+      <section className="flex items-start gap-4 p-6 bg-white rounded-lg">
         <ShieldCheck size={20} className="mt-1 text-primary" />
         <div>
           <p className="text-xs font-semibold text-gray-500 uppercase">

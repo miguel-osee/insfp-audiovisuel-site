@@ -42,7 +42,7 @@ L’INSFP Audiovisuel Echahid Ahmed Mehdi Ouled Fayet poursuit sa mission de for
           {missions.map((mission) => (
             <div
               key={mission.id}
-              className="flex items-start gap-4 p-8 bg-white shadow-sm rounded-2xl"
+              className="flex items-start gap-4 p-8 bg-white shadow-sm rounded-2xl border border-primary/100"
             >
               {/* Icône */}
               <div className="flex-shrink-0">
