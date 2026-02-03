@@ -2,7 +2,7 @@ import { formations } from "../data/formations";
 import FormationCard from "./FormationCard";
 import { Link } from "react-router-dom";
 
-export default function Formationspreview() {
+export default function FormationsPreview() {
   return (
     <section className="mt-10">
         <div className="container ">
